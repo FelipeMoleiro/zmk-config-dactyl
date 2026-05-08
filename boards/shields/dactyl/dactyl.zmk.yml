@@ -3,8 +3,8 @@ id: dactyl
 name: Dactyl Keyboard 4x5
 type: shield
 url: https://github.com/FelipeMoleiro/dactyl-shield-module
-requires: [pro_micro]
-exposes: []
+requires:
+  - pro_micro
 features:
   - keys
 siblings:

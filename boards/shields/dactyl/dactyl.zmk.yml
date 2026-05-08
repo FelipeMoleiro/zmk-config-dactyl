@@ -1,0 +1,12 @@
+file_format: "1"
+id: dactyl
+name: Dactyl Keyboard 4x5
+type: shield
+url: https://github.com/FelipeMoleiro/dactyl-shield-module
+requires: [pro_micro]
+exposes: []
+features:
+  - keys
+siblings:
+  - dactyl_left
+  - dactyl_right

@@ -29,7 +29,7 @@
                                                &out OUT_BLE    &kp Q        &kp Q        &kp K               &kp Q    &kp Q    &kp K     &kp Q
             >;
         };
-        new_layer_3 {
+        new_layer_3{
             status = "reserved";
         };
 		new_layer_4 {

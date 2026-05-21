@@ -11,7 +11,7 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &kp ESC  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SINGLE_QUOTE  &kp LSHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE  &kp ENTER  &kp BACKSPACE  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp LEFT_ALT  &mo 1  &kp LEFT_CONTROL  &kp LEFT_GUI  &mo 2  &kp RIGHT_CONTROL  &mo 1  &kp RIGHT_ALT
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &kp ESC  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SINGLE_QUOTE  &kp LSHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT  &kp LEFT_CONTROL  &mo 2  &kp LEFT_SHIFT  &kp SPACE  &kp ENTER  &kp BACKSPACE  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp LEFT_ALT  &mo 1  &kp LEFT_CONTROL  &kp LEFT_GUI  &mo 2  &kp RIGHT_CONTROL  &mo 1  &kp RIGHT_ALT
             >;
         };
 
@@ -27,28 +27,28 @@
         mouse_layer {
             display-name = "Mouse";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_UP  &mkp LCLK  &mmv MOVE_UP  &mkp RCLK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MCLK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         number_layer {
             display-name = "Default Layer";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &kp ESC  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SINGLE_QUOTE  &kp LSHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE  &kp ENTER  &kp BACKSPACE  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp LEFT_ALT  &mo 1  &kp LEFT_CONTROL  &kp LEFT_GUI  &mo 2  &kp RIGHT_CONTROL  &mo 1  &kp RIGHT_ALT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N1  &kp N2  &kp N3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         symbols_layer {
-            display-name = "Default Layer";
+            display-name = "Symbols";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &kp ESC  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SINGLE_QUOTE  &kp LSHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE  &kp ENTER  &kp BACKSPACE  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp LEFT_ALT  &mo 1  &kp LEFT_CONTROL  &kp LEFT_GUI  &mo 2  &kp RIGHT_CONTROL  &mo 1  &kp RIGHT_ALT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         nav_layer {
-            display-name = "Default Layer";
+            isplay-name = "Navigation Layer";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &kp ESC  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SINGLE_QUOTE  &kp LSHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE  &kp ENTER  &kp BACKSPACE  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp LEFT_ALT  &mo 1  &kp LEFT_CONTROL  &kp LEFT_GUI  &mo 2  &kp RIGHT_CONTROL  &mo 1  &kp RIGHT_ALT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PG_UP  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp PG_DN  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 

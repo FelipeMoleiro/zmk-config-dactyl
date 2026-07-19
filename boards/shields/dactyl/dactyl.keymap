@@ -49,7 +49,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SHIFT_CAPS";
             #binding-cells = <0>;
-            bindings = <&sk LEFT_SHIFT>, <&kp CAPSLOCK>;
+			tapping-term-ms = <1000>;
+            bindings = <&kp LEFT_SHIFT>, <&kp CAPSLOCK>;
         };
 
         acento_agudo_grave: acento_agudo_grave {

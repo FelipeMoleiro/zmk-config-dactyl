@@ -137,7 +137,7 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &lt 7 ESC  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SINGLE_QUOTE  &shift_caps  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &sk RSHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &mo 7  &lt 8 SPACE  &lt 6 ENTER  &kp BACKSPACE  &tog 3  &kp RIGHT_CONTROL  &kp LEFT_ALT  &mo 4  &kp LEFT_CONTROL  &mo 10  &mo 5  &kp RIGHT_CONTROL  &mo 4  &tog 1
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &lt 7 ESC  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SINGLE_QUOTE  &shift_caps  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &sk RSHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &mo 7  &lt 8 SPACE  &lt 6 ENTER  &lt 5 BACKSPACE  &tog 3  &kp RIGHT_CONTROL  &kp LEFT_ALT  &mo 4  &kp LEFT_CONTROL  &mo 10  &mo 5  &kp RIGHT_CONTROL  &mo 4  &tog 1
             >;
         };
 
@@ -159,7 +159,7 @@
 
         Gallium {
             bindings = <
-&trans  &kp B  &kp L  &kp D  &kp C  &kp V  &kp J  &kp Y  &kp O  &kp U  &kp COMMA  &trans  &trans  &hml LSHIFT N  &hml LCTRL R  &hml LALT T  &hml LMETA S  &kp G  &kp P  &hmr RMETA H  &hmr RALT A  &hmr RCTRL R  &hmr RSHIFT I  &trans  &trans  &kp X  &kp Q  &kp M  &kp W  &kp Z  &kp K  &kp F  &kp APOS  &kp SEMI  &kp DOT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp B  &kp L  &kp D  &kp C  &kp V  &kp J  &kp Y  &kp O  &kp U  &kp COMMA  &trans  &trans  &hml LSHIFT N  &hml LCTRL R  &hml LALT T  &hml LMETA S  &kp G  &kp P  &hmr RMETA H  &hmr RALT A  &hmr RCTRL E  &hmr RSHIFT I  &trans  &trans  &kp X  &kp Q  &kp M  &kp W  &kp Z  &kp K  &kp F  &kp APOS  &kp SEMI  &kp DOT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "Gallium";
@@ -175,7 +175,7 @@
         mouse_layer {
             display-name = "Mouse";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_UP  &mkp LCLK  &mmv MOVE_UP  &mkp RCLK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MCLK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &mmv MOVE_UP  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 

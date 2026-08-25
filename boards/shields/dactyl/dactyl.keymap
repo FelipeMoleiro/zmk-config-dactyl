@@ -131,61 +131,61 @@
         one {
             bindings = <&kp N1>;
             key-positions = <13 1>;
-            slow-release;
+            timeout-ms = <150>;
         };
 
         two {
             bindings = <&kp N2>;
             key-positions = <14 2>;
-            slow-release;
+            timeout-ms = <150>;
         };
 
         three {
             bindings = <&kp N3>;
             key-positions = <15 3>;
-            slow-release;
+            timeout-ms = <150>;
         };
 
         four {
             bindings = <&kp N4>;
             key-positions = <16 4>;
-            slow-release;
+            timeout-ms = <150>;
         };
 
         five {
             bindings = <&kp N5>;
             key-positions = <17 5>;
-            slow-release;
+            timeout-ms = <150>;
         };
 
         six {
             bindings = <&kp N6>;
             key-positions = <18 6>;
-            slow-release;
+            timeout-ms = <150>;
         };
 
         seven {
             bindings = <&kp N7>;
             key-positions = <7 19>;
-            slow-release;
+            timeout-ms = <150>;
         };
 
         eight {
             bindings = <&kp N8>;
             key-positions = <20 8>;
-            slow-release;
+            timeout-ms = <150>;
         };
 
         nine {
             bindings = <&kp N9>;
             key-positions = <21 9>;
-            slow-release;
+            timeout-ms = <150>;
         };
 
         zero {
             bindings = <&kp N0>;
             key-positions = <22 10>;
-            slow-release;
+            timeout-ms = <150>;
         };
 
         /* cedilha { */

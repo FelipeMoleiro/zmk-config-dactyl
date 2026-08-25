@@ -89,93 +89,93 @@
 
         left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <4 16>;
-            layers = <4>;
+            key-positions = <3 4>;
+            layers = <4 1>;
         };
 
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <15 3>;
-            layers = <4>;
+            key-positions = <15 16>;
+            layers = <4 1>;
         };
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <2 14>;
-            layers = <4>;
+            key-positions = <27 28>;
+            layers = <4 1>;
         };
 
         right_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <7 19>;
-            layers = <4>;
+            key-positions = <7 8>;
+            layers = <4 1>;
         };
 
         right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <20 8>;
-            layers = <4>;
+            key-positions = <8 9>;
+            layers = <4 1>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <9 21>;
-            layers = <4>;
+            key-positions = <20 19>;
+            layers = <4 1>;
         };
 
         sticky_shift {
             bindings = <&sk LEFT_SHIFT>;
-            key-positions = <25 26>;
+            key-positions = <25 13>;
         };
 
         one {
             bindings = <&kp N1>;
-            key-positions = <13 25>;
+            key-positions = <13 1>;
         };
 
         two {
             bindings = <&kp N2>;
-            key-positions = <14 26>;
+            key-positions = <14 2>;
         };
 
         three {
             bindings = <&kp N3>;
-            key-positions = <15 27>;
+            key-positions = <15 3>;
         };
 
         four {
             bindings = <&kp N4>;
-            key-positions = <16 28>;
+            key-positions = <16 4>;
         };
 
         five {
             bindings = <&kp N5>;
-            key-positions = <17 29>;
+            key-positions = <17 5>;
         };
 
         six {
             bindings = <&kp N6>;
-            key-positions = <18 30>;
+            key-positions = <18 6>;
         };
 
         seven {
             bindings = <&kp N7>;
-            key-positions = <19 31>;
+            key-positions = <7 19>;
         };
 
         eight {
             bindings = <&kp N8>;
-            key-positions = <20 32>;
+            key-positions = <20 8>;
         };
 
         nine {
             bindings = <&kp N9>;
-            key-positions = <21 33>;
+            key-positions = <21 9>;
         };
 
         zero {
             bindings = <&kp N0>;
-            key-positions = <22 34>;
+            key-positions = <22 10>;
         };
 
         /* cedilha { */
